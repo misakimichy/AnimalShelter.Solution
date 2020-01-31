@@ -1,6 +1,6 @@
-# Local Business API - Zomato API
+# Animal Shelter
 
-#### _C#, .NET: Local Business API - Zomato API, 01/31/2020_ Created By Misaki Koonce
+#### _C#, .NET: Animal Shelter, 01/31/2020_ Created By Misaki Koonce
 
 ## Description
 Create an API for a local business lookup. The API will list restaurants and shops in town.
@@ -8,19 +8,7 @@ Create an API for a local business lookup. The API will list restaurants and sho
 <!-- <img src="img/screenshot.png" style="text-align: center;"/> -->
 
 ## Application specifications:
-- Zomato API API
-    - Get a API key from [Zomato API developers account](https://developers.zomato.com/api)
 
-    - Create a EnvironmentVariables.cs in AnimalShelterAPI/Models and paste the API key in the code:
-    ```
-    namespace AnimalShelterAPI.Models
-    {
-        public static class EnvironmentVariables
-        {
-            public static string ApiKey = "paste-api-key-here";
-        }
-    }
-    ```
 
 
 ## Setup/Installation Requirements
@@ -29,8 +17,6 @@ Create an API for a local business lookup. The API will list restaurants and sho
 ```
 $ git clone this-project-url
 ```
-
-2. Make sure you have added a EnvironmentVariables.cs in AnimalShelterAPI/Models with your api key
 
 
 3. Run application
