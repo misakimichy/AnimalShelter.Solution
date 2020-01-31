@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using LocalBusinessAPI.Models;
+using AnimalShelterAPI.Models;
 
-namespace LocalBusinessAPI.Controllers
+namespace AnimalShelterAPI.Controllers
 {
     public class HomeController : Controller
     {

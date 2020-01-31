@@ -11,9 +11,9 @@ Create an API for a local business lookup. The API will list restaurants and sho
 - Zomato API API
     - Get a API key from [Zomato API developers account](https://developers.zomato.com/api)
 
-    - Create a EnvironmentVariables.cs in LocalBusinessAPI/Models and paste the API key in the code:
+    - Create a EnvironmentVariables.cs in AnimalShelterAPI/Models and paste the API key in the code:
     ```
-    namespace LocalBusinessAPI.Models
+    namespace AnimalShelterAPI.Models
     {
         public static class EnvironmentVariables
         {
@@ -30,7 +30,7 @@ Create an API for a local business lookup. The API will list restaurants and sho
 $ git clone this-project-url
 ```
 
-2. Make sure you have added a EnvironmentVariables.cs in LocalBusinessAPI/Models with your api key
+2. Make sure you have added a EnvironmentVariables.cs in AnimalShelterAPI/Models with your api key
 
 
 3. Run application

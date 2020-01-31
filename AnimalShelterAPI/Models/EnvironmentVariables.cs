@@ -1,4 +1,4 @@
-namespace LocalBusinessAPI.Models
+namespace AnimalShelterAPI.Models
 {
     public static class EnvironmentVariables
     {

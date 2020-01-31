@@ -1,6 +1,6 @@
 using System;
 
-namespace LocalBusinessAPI.Models
+namespace AnimalShelterAPI.Models
 {
     public class ErrorViewModel
     {
