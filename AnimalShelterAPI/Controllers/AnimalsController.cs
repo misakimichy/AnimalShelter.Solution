@@ -16,7 +16,7 @@ namespace AnimalShelterAPI.Controllers
         {
             _db = db;
         }
-
+    
         // GET api/Animals
         [HttpGet]
         public ActionResult<IEnumerable<Animal>> Get(string species, string breed, int age, string gender)
@@ -49,6 +49,23 @@ namespace AnimalShelterAPI.Controllers
             return _db.Animals.FirstOrDefault(entry => entry.AnimalId == id);
         }
 
+        /// <summary>
+        /// Create a new Animal
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST/Animals
+        ///     {
+        ///        "animalid": 1,
+        ///        "name": "Mocha",
+        ///        "species": "Cat",
+        ///        "breed": "Domestic Shorthair",
+        ///        "age": 2,
+        ///        "gender": "Male"
+        ///     }
+        ///
+        /// </remarks>
         // POST api/Animals
         [HttpPost]
         public void Post([FromBody] Animal animal)
@@ -67,7 +84,7 @@ namespace AnimalShelterAPI.Controllers
         }
 
         /// <summary>
-        /// Deletes a specific TodoItem.
+        /// Deletes a specific Animal by id
         /// </summary>
         // DELETE api/Animals/id
         [HttpDelete("{id}")]
