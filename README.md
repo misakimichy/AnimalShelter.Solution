@@ -3,7 +3,7 @@
 #### _C#, .NET: Animal Shelter, 01/31/2020_ Created By Misaki Koonce
 
 ## Description
-Create an API for a local business lookup. The API will list restaurants and shops in town.
+Create an API for a animal shelter. The API will show a list of animals in the shelter.
 
 <!-- <img src="img/screenshot.png" style="text-align: center;"/> -->
 
