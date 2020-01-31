@@ -38,10 +38,14 @@ namespace AnimalShelterAPI
                     Contact = new OpenApiContact
                     {
                         Name = "Misaki Koonce",
-                        Email = string.Empty,
+                        Email = "misaki.koonce@gmail.com",
                         Url = new Uri("https://github.com/misakimichy"),
                     }
                 });
+                // Set the comments path for the Swagger JSON and UI.
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
         }
 

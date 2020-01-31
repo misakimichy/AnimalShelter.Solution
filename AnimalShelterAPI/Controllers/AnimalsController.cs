@@ -66,6 +66,9 @@ namespace AnimalShelterAPI.Controllers
             _db.SaveChanges();
         }
 
+        /// <summary>
+        /// Deletes a specific TodoItem.
+        /// </summary>
         // DELETE api/Animals/id
         [HttpDelete("{id}")]
         public void Delete(int id)
