@@ -30,11 +30,7 @@ $ dotnet run
 4. Check the API is available at https://localhost5000
 
 ## Known Bugs
-Working on error code 134: 
-```
-    crit: Microsoft.AspNetCore.Server.Kestrel[0]
-    Unable to start Kestrel.
-```
+Figured error code 134 to change localhost port 5000 and 5001 to 4000 and 4001.
 
 
 ## Support and contact details
